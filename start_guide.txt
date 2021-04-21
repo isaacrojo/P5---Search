@@ -1,0 +1,46 @@
+crear archivo git ignore, añadir "node_modules"
+
+crear package .json 
+" npm init -y " en terminal
+
+configurar el package.json
+
+-----------------
+Luego  Node.js :
+instalar dependencias expresss.js
+" npm i express " o i=install
+
+--------
+crear archivo principal index.js
+
+instalar ejs
+" npm install ejs "  o i=install
+
+crear archivo y carpetas
+views / pages / index.ejs
+
+agregar html a index.ejs
+
+probar en terminal con " node index.js "  
+y de ahi a localhost...
+
+
+Configurar para que se actualice el servidor cuando realizamos cambios
+instalar el nodemon
+" npm install -g nodemon "   -g = global, en toda la compu
+
+
+Ejecutar servidor con
+nodemon index.js
+
+(Solamente si aparece un error de scripts deshabilitados en Windows)
+(Abrir PowerShell como admin)
+
+(Consultar actual)
+Get-ExecutionPolicy
+
+(Cambiar)
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
+(Devolver; ej a valor Restricted)
+Set-ExecutionPolicy -ExecutionPolicy Restricted
